@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- This html page handles the look and functionality of the homepage of my poll system-->
+
+<!-- Adding boot bootstrap styling here-->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+<html>
+  <head>
+    <title>Kirby's Polls</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/style-main.css"> <!-- linking the stylesheet for the homepage here-->
+  </head>
+  <body>
+    <header>
+    <nav class="navbar navbar-dark bg-dark">  <!-- Below I am adding the navigation bar to help the user navigate the site-->
+  <a class="navbar-brand" href="index.html">Kirby's Polls</a> <!-- Giving the navigation bar a title here-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText"> <!-- Setting up the collapsable dropdown menu on the navigation bar-->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="create_poll.html">Create a poll</a> <!-- Setting links to the other pages available-->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="current_polls.php">Take a poll</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header>
+    <div class= "container">
+      <div class= "row">
+        <div class= "col-sm-12">
+          <h1>Kirby's Polls</h1>
+          <ul class="list-group">
+            <li class="list-group-item"><a href= "index.html">Home</a></li>
+            <li class="list-group-item"><a href= "create_poll.html">Create a poll</a></li> <!-- Creating a list of links to the other pages in the site-->
+            <li class="list-group-item"><a href= "current_polls.php">Take a poll</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
